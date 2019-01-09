@@ -1,20 +1,93 @@
-.main-img-container {
-    width: 100%;
+.main-img {
+    background-image: url('./images/loc-copy.jpeg');
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.main-img {
-    background-image: url("./images/loc-copy.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
+.main-nav {
+    height: 60px;
     width: 100%;
-    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10
+}
+
+.main-nav .nav-container {
+    justify-content: space-between;
+    flex: 1;
+}
+
+.main-nav .loc-logo {
+    background-image: url('./images/loc-fav.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.main-nav .nav-container div {
+    color: white;
+}
+
+.main-nav .nav-container div:hover {
+   border-bottom: 3px solid white;
+}
+
+.main-nav .nav-container div:active {
+    border-bottom: 3px solid white;
+ }
+
+.main-nav .nav-filler {
+    flex: 2;
+}
+
+.main-nav .nav-ends {
+    width: 50px;
+}
+
+#about {
+    height: 300px;
+}
+
+#about .profile-img {
+    background-image: url('./images/profile-copy.jpg');
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    border-radius: 50%
+}
+
+#videos .video-container iframe {
+   margin: 0px 20px;
+}
+
+#contact {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .flex-container {
     display: flex;
 }
 
-.flex-container-column {
-    flex-direction: column;
+.flex-column {
+    flex-direction: column
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-vertical-center {
+    align-items: center
+}
+
+.flex-horizontal-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap
 }

@@ -19,7 +19,7 @@
     flex: 1;
 }
 
-.main-nav .loc-logo {
+.main .loc-logo {
     background-image: url('./images/loc-fav.png');
     background-repeat: no-repeat;
     background-size: contain;

@@ -14,18 +14,20 @@
 <body>
     <div class="container-fluid">
         <!-- main -->
-        <div id="main" class="row">
-            <!-- to do make it responsive and collapseable -->
+        <!-- <div id="main" class="row">
             <div class="main-nav flex-container">
                 <div class="nav-ends flex-container flex-center">
-                    <div class="loc-logo f">
-
-                    </div>
+                   
                 </div>
                 <div class="nav-filler">
 
                 </div>
-                <div class=" nav-container flex-container flex-vertical-center">
+                <div class="">
+                    <button class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class=" nav-container flex-container flex-vertical-center d-none d-md-block">
                     <a href="#home">
                         Home
                     </a>
@@ -46,7 +48,44 @@
             <div class="col-lg main-img">
 
             </div>
+        </div> -->
+        <nav class="main navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand loc-logo" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="col-lg main-img">
+
         </div>
+
         <!-- about -->
         <div id="about" class="row">
             <div class="col-md-4 flex-container flex-center">

@@ -59,11 +59,18 @@
     background-size: contain;
     border-radius: 50%;
     background-repeat: no-repeat;
+    min-width: 250px; /* You need this because the image will be cut off.*/
+}
+
+#about .about-content {
+    width: 70%;
+    max-width: ;
 }
 
 @media (max-width: 992px) { 
-    #about .about-content{
+    #about .about-content {
        justify-content: center;
+       flex-direction: column;
     }
 }
 
@@ -111,4 +118,17 @@
 
 .flex-wrap {
     flex-wrap: wrap
+}
+
+/* font styles */
+a {
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-family: 'Roboto';
+}
+
+div {
+    font-family: 'Roboto';
 }

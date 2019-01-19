@@ -1,58 +1,26 @@
-/* To DO:
-    Add responsive typography to the whole website!!!!
-*/
+#main .loc-logo {
+    background-image: url('./images/loc-fav.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+} 
 
-body {
-    background: #ffffff;
+#main .main-nav {
+    width: 100%;
 }
 
 .main-img {
     background-image: url('./images/loc-copy.jpeg');
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.main-nav {
-    height: 60px;
-    width: 100%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 10
-}
-
-.main-nav .nav-container {
-    justify-content: space-between;
-    flex: 1;
-}
-
-.main .loc-logo {
-    background-image: url('./images/loc-fav.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 50px;
-    width: 50px;
-}
-
-.main-nav .nav-container div {
-    color: white;
-}
-
-.main-nav .nav-container div:hover {
-   border-bottom: 3px solid white;
-}
-
-.main-nav .nav-container div:active {
-    border-bottom: 3px solid white;
- }
-
-.main-nav .nav-filler {
-    flex: 2;
-}
-
-.main-nav .nav-ends {
-    width: 50px;
+.section-space {
+ padding: 50px;
 }
 
 #about {
@@ -73,10 +41,18 @@ body {
     width: 70%;
 }
 
+#about .about-content div{
+    margin: 0px 15px;
+}
+
 @media (max-width: 992px) { 
     #about .about-content {
        justify-content: center;
        flex-direction: column;
+    }
+
+    #about .about-content .profile-img {
+        margin: 0 0 20px 0
     }
 }
 

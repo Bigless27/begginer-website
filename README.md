@@ -1,16 +1,19 @@
 # Lesson on Coding website
+- Step by step series of coding the Lesson on Coding website. Be sure to check out the videos for a walkthrough
 
-[x] Step 1 complete
+- [x] Step 1
     - [x] Main feature
-    - [x] About  feature 
+    - [x] About feature
     - [x] Videos feature
-
-[ ] Step 2
+    - [x] Contact feature
+    - Step one video [here](https://youtu.be/m8r-co6aepo)
+ 
+ - [ ] Step 2
     - [ ] Add a icon library
     - [ ] Add header animations for scrolling down
     - [ ] Improve about me section
-        - add a  icon accolade section
-        - add more links to show other work examples
+        - Add a icon accolade section?
+        - Add more links to show other work examples 
         - link to resume
-    - [ ] send api call to Youtube to get videos instead of having          hard coded
-    - [ ] Import Contact section smh
+    - [ ] send api call to Youtube to get videos instead of having them hard coded
+    - [ ] Imporove Contact section smh

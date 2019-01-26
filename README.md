@@ -10,7 +10,7 @@
  
  - [ ] Step 2
     - [ ] Add a icon library
-    - [ ] Install NPM
+    - [ ] Install NPM with packages needed.
     - [ ] Add header animations for scrolling down
     - [ ] Improve about me section
         - Add a icon accolade section?

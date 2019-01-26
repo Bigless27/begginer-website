@@ -10,10 +10,10 @@
  
  - [ ] Step 2
     - [ ] Add a icon library
+    - [ ] Install NPM
     - [ ] Add header animations for scrolling down
     - [ ] Improve about me section
         - Add a icon accolade section?
         - Add more links to show other work examples 
         - link to resume
-    - [ ] send api call to Youtube to get videos instead of having them hard coded
-    - [ ] Imporove Contact section smh
+    - [ ] Add contact section form.

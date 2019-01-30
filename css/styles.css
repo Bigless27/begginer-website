@@ -1,0 +1,88 @@
+#main .main-img {
+  background-image: url("./images/loc-copy.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+#main .loc-logo {
+  background-image: url("images/loc-fav.png");
+  height: 50px;
+  width: 50px;
+  background-size: contain; }
+
+#main .main-nav {
+  width: 100%; }
+
+.test {
+  color: red; }
+
+#about .profile-img {
+  background-image: url("./images/profile-copy.jpg");
+  height: 250px;
+  width: 250px;
+  background-size: contain;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  min-width: 250px; }
+
+#about .about-content {
+  width: 70%; }
+
+#about div {
+  margin: 0px 20px; }
+
+@media (max-width: 992px) {
+  #about .about-content {
+    justify-content: center;
+    flex-direction: column; }
+  #about .about-content div {
+    margin: 20px 0 20px 0; } }
+
+#videos {
+  background-color: #fafafa; }
+
+#videos .youtube-vid {
+  margin: 20px; }
+
+#videos .watch-more a {
+  color: white; }
+
+#contact {
+  background-color: #f0eeee; }
+
+.section-space {
+  padding: 50px 0px; }
+
+.flex-container {
+  display: flex; }
+
+.flex-column {
+  flex-direction: column; }
+
+.flex-center {
+  justify-content: center;
+  align-items: center; }
+
+.flex-vertical-center {
+  align-items: center; }
+
+.flex-horizontal-center {
+  justify-content: center; }
+
+.flex-align-right {
+  align-items: flex-start; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
+/* font styles */
+a {
+  font-family: 'Roboto'; }
+
+h3 {
+  font-family: 'Roboto';
+  color: #404040; }
+
+div {
+  font-family: 'Roboto'; }

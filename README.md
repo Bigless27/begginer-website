@@ -18,3 +18,4 @@
         - link to resume
     - [x] Add contact section form.
     - [] use scss to establish break points with variables
+    - Contact form to right of contact info with email through mail gun.

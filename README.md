@@ -9,11 +9,12 @@
     - Step one video [here](https://youtu.be/m8r-co6aepo)
  
  - [ ] Step 2
-    - [ ] Add a icon library
-    - [ ] Install NPM with packages needed.
-    - [ ] Add header animations for scrolling down
-    - [ ] Improve about me section
+    - [x] Add a icon library
+    - [x] Install NPM with packages needed.
+    - [x] Add header animations for scrolling down
+    - [x] Improve about me section
         - Add a icon accolade section?
         - Add more links to show other work examples 
         - link to resume
-    - [ ] Add contact section form.
+    - [x] Add contact section form.
+    - [] use scss to establish break points with variables

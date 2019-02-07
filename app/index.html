@@ -17,6 +17,7 @@
     <!-- step 2 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
         crossorigin="anonymous">
+    <script src="./index.js"></script>
 </head>
 
 <body class="container-fluid">
@@ -171,7 +172,7 @@
             </div>
             <div class="contact-form-container">
                 <h3 class="display-4">Contact Me</h3>
-                <form class="contact-form flex-container flex-column" action="">
+                <form id="contact-form" class="contact-form flex-container flex-column">
                     <div>
                         <input id="firstName" type="text" placeholder="First Name">
                     </div>
@@ -184,7 +185,7 @@
                     <div>
                         <textarea placeholder="Comment here" name="" id="" cols="30" rows="10"></textarea>
                     </div>
-                    <button class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary">
                         Submit
                     </button>
                 </form>

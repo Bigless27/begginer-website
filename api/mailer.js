@@ -13,15 +13,16 @@ function setup() {
     })
 }
 
-export default function sendContactForm(data) {
+export function sendContactForm(data) {
     const tranport = setup();
     const email = {
         from,
-        to: user.email,
+        to: "lessonryan@gmail.com",
         subject: "Welcome to",
         text: `
-      Welcome to Bookworm. Please, confirm your email.
-      ${user.generateConfirmationUrl()}
+        Name: ${data.firstName} ${data.lastName}
+        Email:  ${data.email}
+        Comment: ${data.comment}
       `
     };
 

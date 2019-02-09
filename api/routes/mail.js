@@ -1,10 +1,12 @@
 import express from 'express';
-import { send } from '../mailer'
+import { sendContactForm } from '../mailer'
 
 const router = express.Router();
 
 router.post('/', (req, res) => {
-    console.log(req.body);
+    sendContactForm(req.body);
+    res.status(200).send("hello");
+
 })
 
 export default router;

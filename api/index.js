@@ -2,14 +2,16 @@ import express from 'express';
 import path from 'path';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
+import cors from 'cors'
 
 import mail from './routes/mail';
 
 dotenv.config();
 const app = express();
 
-app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
+app.use(cors());
 
 app.use('/api/mail', mail);
 

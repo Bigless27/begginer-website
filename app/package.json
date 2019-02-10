@@ -1,0 +1,27 @@
+{
+  "name": "begginer-website",
+  "version": "1.0.0",
+  "description": "- Step by step series of coding the Lesson on Coding website. Be sure to check out the videos for a walkthrough",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new": "node-sass --watch scss -o css",
+    "build": "node-sass scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bigless27/begginer-website.git"
+  },
+  "author": "Ryan Lesson <lessonryan@gmail.com> (http://idea42.co/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bigless27/begginer-website/issues"
+  },
+  "homepage": "https://github.com/Bigless27/begginer-website#readme",
+  "dependencies": {
+    "autoprefixer": "^9.4.7",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.1"
+  }
+}

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "new": "node-sass --watch scss -o css",
-    "build": "node-sass scss -o css"
+    "build": "node-sass scss -o css",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
